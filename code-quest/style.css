@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    font-family: "Bona Nova SC", serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    color: white;
+    background-color: rgb(37, 35, 35);
+    height: 70px;
+} 
+ header nav{
+    font-size: 22px;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+
+}
+
+/* nav .navleft i p{
+   
+} */
+nav .navcentre ul li{
+   /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    cursor: pointer;
+    list-style: none;
+    display: inline;
+    padding-left: 35px;
+    transition: all 0.3s;
+}
+nav .navcentre ul li:hover{
+    color: rgb(76, 209, 219);
+}
+nav .navright .contact{
+    cursor: pointer;
+    height: 40px;
+    width: 90px;
+    color:black;
+    background-color :rgb(76, 209, 219);
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+nav .navright .contact:hover{
+    color:rgb(76, 209, 219);
+    /* border: 2px solid white; */
+    background-color:white;
+
+}
+.body .main{
+    background-color:black;
+    color: white;
+    
+    display: flex;
+    padding-top: 80px;
+}
+.body .bodyleft{
+    padding-left: 100px;
+    width: 400px;
+
+}
+.body .bodyleft .para{
+    
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.bodyleft .about{
+    /* padding-top: 40px; */
+    color: white;
+    background-color:rgb(76, 209, 219);
+    height: 40px;
+    width: 90px;
+    border: 2px solid rgb(76, 209, 219);
+    border-radius: 5px;
+    transition: all 0.3s;
+
+}
+.bodyleft .about:hover{
+    color:rgb(76, 209, 219);
+    background-color:white;
+    border: 2px solid  rgb(76, 209, 219);
+}
+.bodyleft .name{
+    padding-top: 20px;
+   
+    color: rgb(76, 209, 219);
+}
+
+.bodyleft .bodybottom{
+    padding-top: 40px;
+    display: flex;
+    padding-left: 30px;
+    color: white;
+}
+.bodyleft .bodybottom .bottom{
+    padding-right: 30px;
+}
+
+.bodyleft .bodybottom .bottom h4{
+    color:rgb(76, 209, 219) ;
+    transition: all 0.3s;
+}
+.bodyleft .bodybottom .bottom h4:hover{
+    padding-top: 10px;
+    color: white;
+}
+.bodyleft span{
+    color: white;
+    padding-left: 10px;
+    transition: all 0.4s;
+}
+.bodyleft span:hover{
+    color:rgb(76, 209, 219) ;
+    padding-left: 30px;
+}
+.bodyleft .down{
+    padding-top: 100px;
+}
+
+.body .bodymid img{
+    height: 495px;
+    transition: all 0.3s;
+}
+.body .bodymid img:hover{
+    height: 500px;
+
+}
+.body .bodymid{
+    padding-left: 300px;
+}
+.body .bodyright{
+    padding-left: 50px;
+    display: block;
+
+}
+.body .bodyright i {
+    color: rgb(76, 209, 219);
+    padding-left: 30px;
+   padding-bottom: 20px;
+    font-size: 30px;
+    transition: all 0.3s;
+}
+.body .bodyright i:hover{
+    color: white;
+    font-size: 35px;
+}
+.body .bodyright .logo{
+    height: 20px;
+}
+
